@@ -4,12 +4,9 @@ import requests
 from queue import Queue
 from colorama import Fore, Back, Style
 import argparse
-import os
 import sys
 import threading, time, signal
 #用以ctrl+c
-
-os.chdir('D:\Air-Rolan\Air\漏洞扫描\Empirecmscan')
 
 
 #目录遍历
